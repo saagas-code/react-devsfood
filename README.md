@@ -8,6 +8,7 @@ Projeto construido em React + Typescript baseado em uma API RESTful feita em Nod
 ## Técnicas utilizadas:
 
 - ContextAPI
+- Redux
 - Comunicacão entre componentes
 - Requisição de API RESTful
 - Autenticação via token JWT
