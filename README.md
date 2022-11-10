@@ -1,4 +1,4 @@
-# Projeto DEVSFOOD
+<h1 align="center">Projeto DEVSFOOD</h1>
 
 ![]([https://github.com/biixin/olx-GIFF/blob/main/20221103_201905.gif](https://github.com/biixin/devsfood-giff/blob/main/20221106_175754.gif))
 
