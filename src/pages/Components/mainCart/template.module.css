@@ -1,0 +1,191 @@
+.CartArea {
+    background-color: #136713;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    
+}
+
+.CartHeader {
+    height: 50px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.CartHeader div {
+    color: white;
+}
+.CartHeader span {
+    font-size: 23px;
+    margin: 0px 10px;
+}
+.CartHeader img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.CartText {
+    color: white;
+    font-size: 17px;
+    flex: 1;
+}
+
+.CartBody {
+    display: none;
+    color: #FFF;
+}
+
+.ProductsArea {
+
+}
+.ProductItem {
+    display: flex;
+    margin: 10px;
+}
+.ProductItem img {
+    width: 64px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.ProductInfoArea {
+    flex: 1;
+    margin-left: 10px;
+}
+.ProductName {
+    font-size: 15px;
+    font-weight: bold;
+}
+.ProductsPrice {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.ProductsPrice .remove {
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 10px;
+    background-color: #033408;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.ProductQuantityArea {
+    display: flex;
+    align-items: center;
+    
+}
+.ProductQuantityArea img {
+    width: 13px;
+    height: auto;
+    cursor: pointer;
+}
+.ProductQtText {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.DeliveryArea {
+    /* height: 100px; */
+    margin: 10px 10px
+}
+.DeliveryHeader {
+    font-size: 18px;
+    font-weight: bold;
+}
+.DeliveryInfoArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.DeliveryInfoText {
+    font-size: 13px;
+}
+.DeliveryEdit {
+    align-items: center;
+}
+.DeliveryEdit img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.CupomArea {
+    margin: 5px 10px;
+}
+
+.CupomHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.CupomInput {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.CupomInput input {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+
+.FinishArea {
+    margin: 15px 10px;
+    width: 270px;
+}
+.messageArea {
+    margin: 15px 10px;
+    display: flex;
+    width: 270px;
+}
+.messageArea img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.DiscountInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DeliveryInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TotalInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FinishButton {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.FinishButton button {
+    background-color: #033408;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+

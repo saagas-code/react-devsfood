@@ -1,0 +1,39 @@
+
+
+
+header {
+    display: flex;
+    background-color: #136713;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: black;
+}
+.logo img {
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+.search {
+
+}
+.search input {
+    border: 0;
+    border-radius: 25px;
+    width: 0px;
+    height: 50px;
+    background-color: white;
+    background-image: url('../../../images//search.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    outline: 0;
+    padding-left: 50px;
+    transition: all ease .2s;
+}
+
+

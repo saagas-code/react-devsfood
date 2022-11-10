@@ -1,0 +1,82 @@
+
+
+
+
+.Container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBody {
+    
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #000;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.ModalContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #136713;
+}
+.ModalContainer h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.radioContainer {
+    margin-bottom: 15px;
+}
+.radioContainer input {
+    margin: 0 2px;
+    
+}
+.radioContainer label {
+    margin-right: 20px;
+}
+.radioName {
+    margin-bottom: 5px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+.inputs label {
+    margin-top: 5px;
+}
+.inputs input {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #080;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 16px;
+}
+.ModalContainer button {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background-color: #073c07;
+    box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.cancel {
+    font-size: 13px !important;
+    padding: 8px 4px !important;
+    margin-left: 15px !important;
+}

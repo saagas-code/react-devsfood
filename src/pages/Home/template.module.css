@@ -1,0 +1,67 @@
+a {
+  color: green;
+}
+
+.Home {
+  display: flex;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/bg.png");
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.CategoryArea {
+  color: white;
+  margin-top: 20px;
+}
+
+.CategoryList {
+  display: flex;
+  margin-top: 10px;
+}
+
+.ProductArea {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ProductList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.PaginationArea {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.PaginationItem {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.Login {
+  background-image: url("../../images/search.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .ProductList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

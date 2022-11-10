@@ -1,0 +1,20 @@
+
+
+
+.Container {
+    width: 80px;
+    height: 80px;
+    background-color: #AAE09A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.Container img {
+    width: 55px;
+    height: 55px;
+}

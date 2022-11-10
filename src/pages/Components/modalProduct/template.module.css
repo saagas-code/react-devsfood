@@ -1,0 +1,96 @@
+
+.Container {
+    width: 650px;
+    padding: 20px;
+}
+
+.ProductArea {
+    height: 200px;
+    display: flex;
+}
+
+.ProductPhoto {
+    width: 310px;
+    border-radius: 10px;
+}
+
+.ProductPhoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ProductInfoArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.ProductDetails {
+    
+}
+.ProductName {
+    font-size: 30px;
+    font-weight: bold;
+}
+.ProductIngredients {
+    font-size: 14px;
+
+}
+
+.ProductQuantityArea {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ProductQuantity {
+    display: flex;
+    align-items: center;
+    background-color: #073C07;
+}
+.ProductQuantity div {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.ProductQuantity img {
+    width: 24px;
+    height: auto;
+    color: #FFF;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.ProductPrice {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.ProductButtons {
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ProductButtons button {
+    border: 0;
+    background-color: #073C07;
+    box-shadow: 4px 5px 0px #999;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ProductButtons button:first-child {
+    font-size: 13px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,15 @@
+
+
+
+.menuContainer {
+    display: flex;
+    background-color: #136713;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}

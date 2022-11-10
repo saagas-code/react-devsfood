@@ -1,0 +1,161 @@
+a {
+  color: green;
+}
+
+.Home {
+  display: flex;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/bg.png");
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.ordersContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderItem {
+  margin: 10px;
+  padding: 15px;
+  width: 48%;
+  /* height: 200px; */
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.orderSectionTitle {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #136713;
+}
+.img img {
+  width: 100px;
+  height: auto;
+}
+.titleInfo {
+  margin-left: 10px;
+}
+.orderSectionTitle .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orderSectionTitle span {
+  display: block;
+}
+
+.Container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #136713;
+  width: 30%;
+}
+
+.PhotoArea {
+  width: 100px;
+}
+.PhotoArea img {
+  width: 100%;
+}
+
+.InfoArea {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ProductName {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ProductPrice {
+  font-size: 14px;
+}
+.ProductIngredients {
+  font-size: 11px;
+}
+
+.ButtonArea {
+}
+
+.ButtonArea img {
+  width: 15px;
+  height: auto;
+}
+
+.Diviser {
+  display: flex;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #136713;
+}
+.itemsContainer {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #136713;
+  height: auto;
+  align-items: center;
+  min-height: 40px;
+  /* align-items: center; */
+}
+.seeMore {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.item {
+  width: 48%;
+  height: 20px;
+}
+
+.buttonArea {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.buttonArea button {
+  margin-left: 20px;
+}
+
+.noOrder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+@media (max-width: 1300px) {
+  .Container {
+    width: 45%;
+  }
+}
+@media (max-width: 900px) {
+  .itemsContainer {
+    flex-direction: column;
+    width: 100%;
+    white-space: nowrap;
+  }
+}
