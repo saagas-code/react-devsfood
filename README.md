@@ -1,6 +1,6 @@
 <h1 align="center">Projeto DEVSFOOD</h1>
 
-![]([https://github.com/biixin/olx-GIFF/blob/main/20221103_201905.gif](https://github.com/biixin/devsfood-giff/blob/main/20221106_175754.gif))
+![](https://raw.githubusercontent.com/biixin/devsfood-giff/main/20221106_175754.gif)
 
 Projeto desenvolvido para fins de estudos.
 Projeto construido em React + Typescript baseado em uma API RESTful feita em Node com Sequelize
